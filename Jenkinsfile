@@ -14,7 +14,7 @@ pipeline {
                   }
             
             post {
-	         success {
+	  success {
                             echo "Strating the archive process"
 			    archiveArtifacts artifacts: '**/*.war'
 					
